@@ -10,7 +10,7 @@ define(['jquery'], function ($) {
     }
 
     var load_ipython_extension = function () {
-        createDisplayDiv(window.location.href.replace('hub.paws.wmcloud', 'public.paws.wmcloud'));
+        createDisplayDiv(window.location.href.replace('hub-paws.wmcloud', 'public-paws.wmcloud'));
     };
 
     return {
